@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center justify-center text-center bg-neutral-800">
+      <div className="min-h-screen flex flex-col items-center justify-center text-center bg-lime-400">
         <div className="flex items-center justify-center space-x-8 mb-12">
           <a href="https://vite.dev" target="_blank">
             <img
@@ -34,15 +34,15 @@ function App() {
         <div className=" text-sm space-y-6 mb-8">
           <button
             onClick={() => setCount((count) => count + 1)}
-            className="bg-fuchsia-600 text-orange-400 py-2 px-6 rounded-lg text-lg"
+            className="bg-lime-100 text-neutral py-2 px-6 rounded-lg text-lg"
           >
             angka ke piro brok {count}
           </button>
-          <p className="text-amber-200">
+          <p className="text-white">
             kanggo edit <code>src/App.jsx</code> dan simpan dan keluar
           </p>
         </div>
-        <p className="text-sky-300">aduhai,mantep brok ya ga brok</p>
+        <p className="text-neutral-800">aduhai,mantep brok ya ga brok</p>
       </div>
     </>
   );
