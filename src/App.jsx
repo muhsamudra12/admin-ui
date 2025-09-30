@@ -15,7 +15,7 @@ function App() {
               src={viteLogo}
               className="w-24 h-24 animate-spin"
               alt="Vite logo"
-              style={{ animationDuration: "30s" }}
+              style={{ animationDuration: "5s" }}
             />
           </a>
           <a href="https://react.dev" target="_blank">
@@ -23,7 +23,7 @@ function App() {
               src={reactLogo}
               className="w-24 h-24 animate-spin"
               alt="React logo"
-              style={{ animationDuration: "30s" }}
+              style={{ animationDuration: "5s" }}
             />
           </a>
         </div>
