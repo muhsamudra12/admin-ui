@@ -8,27 +8,40 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <div className="min-h-screen flex flex-col items-center justify-center text-center bg-neutral-800">
+        <div className="flex items-center justify-center space-x-8 mb-12">
+          <a href="https://vite.dev" target="_blank">
+            <img
+              src={viteLogo}
+              className="w-24 h-24 animate-spin"
+              alt="Vite logo"
+              style={{ animationDuration: "30s" }}
+            />
+          </a>
+          <a href="https://react.dev" target="_blank">
+            <img
+              src={reactLogo}
+              className="w-24 h-24 animate-spin"
+              alt="React logo"
+              style={{ animationDuration: "30s" }}
+            />
+          </a>
+        </div>
 
-      <h1 className="bg-yellow-200">Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h1 className="text-white text-6xl  font-bold mb-16">Vite + React</h1>
+        <div className=" text-sm space-y-6 mb-8">
+          <button
+            onClick={() => setCount((count) => count + 1)}
+            className="bg-neutral-900 text-white py-2 px-6 rounded-lg text-lg"
+          >
+            angka ke piro brok {count}
+          </button>
+          <p className="text-neutral-400">
+            kanggo edit <code>src/App.jsx</code> dan simpan dan keluar
+          </p>
+        </div>
+        <p className="text-neutral-500">aduhai,mantep brok ya ga brok</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }
