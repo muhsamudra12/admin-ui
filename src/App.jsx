@@ -28,19 +28,21 @@ function App() {
           </a>
         </div>
 
-        <h1 className="text-white text-6xl  font-bold mb-16">Vite + React</h1>
+        <h1 className="text-blue-400 text-6xl  font-bold mb-16">
+          Vite + React
+        </h1>
         <div className=" text-sm space-y-6 mb-8">
           <button
             onClick={() => setCount((count) => count + 1)}
-            className="bg-neutral-900 text-white py-2 px-6 rounded-lg text-lg"
+            className="bg-neutral-900 text-orange-400 py-2 px-6 rounded-lg text-lg"
           >
             angka ke piro brok {count}
           </button>
-          <p className="text-neutral-400">
+          <p className="text-amber-200">
             kanggo edit <code>src/App.jsx</code> dan simpan dan keluar
           </p>
         </div>
-        <p className="text-neutral-500">aduhai,mantep brok ya ga brok</p>
+        <p className="text-sky-300">aduhai,mantep brok ya ga brok</p>
       </div>
     </>
   );
