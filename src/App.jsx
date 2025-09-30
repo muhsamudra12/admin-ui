@@ -34,7 +34,7 @@ function App() {
         <div className=" text-sm space-y-6 mb-8">
           <button
             onClick={() => setCount((count) => count + 1)}
-            className="bg-neutral-900 text-orange-400 py-2 px-6 rounded-lg text-lg"
+            className="bg-fuchsia-600 text-orange-400 py-2 px-6 rounded-lg text-lg"
           >
             angka ke piro brok {count}
           </button>
