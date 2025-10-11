@@ -8,7 +8,7 @@ function App() {
         <h2 className="mb-2">LATIHAN 1</h2>
         <nav className="flex flex-col md:flex-row justify-between  p-4 bg-gray-100 rounded">
           {/* Kiri - Logo */}
-          <div className="font-bold text-lg mb-2 md:mb-0">Logo Saya</div>
+          <div className="font-bold text-lg mb-2 md:mb-0">Logo/Gambar Saya</div>
 
           {/* Kanan - Menu */}
           <ul className="flex flex-col md:flex-row gap-2 md:gap-6 text-gray-700">
