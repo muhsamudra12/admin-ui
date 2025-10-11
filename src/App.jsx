@@ -35,36 +35,12 @@ function App() {
         {/* LATIHAN 2 - GRID GALERI */}
         <h2 className="mb-2">LATIHAN 2</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
-          <img
-            src="https://www.placehold.co/200x200"
-            alt="Gambar Galeri"
-            className="h-48"
-          />
+          <img src="chibi1.jpg" alt="Gambar Galeri" className="h-48" />
+          <img src="chibi2.jpg" alt="Gambar Galeri" className="h-48" />
+          <img src="chibi4.jpg" alt="Gambar Galeri" className="h-48" />
+          <img src="chibi5.jpg" alt="Gambar Galeri" className="h-48" />
+          <img src="chibi6.jpg" alt="Gambar Galeri" className="h-48" />
+          <img src="chibi7.jpg" alt="Gambar Galeri" className="h-48" />
         </div>
 
         <hr />
